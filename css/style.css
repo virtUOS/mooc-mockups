@@ -1,0 +1,331 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+a, a:hover, a:focus, a:active, a:visited {
+	outline: none;
+}
+
+.clear {
+	clear: both;
+}
+
+body {
+	font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+	color: #333;
+	font-size: 14px;
+}
+
+p {
+	line-height: 22px;
+}
+
+.wrapper {
+
+}
+
+.headline {
+	font-size: 32px;
+	font-weight: 400;
+	padding-bottom: 20px;
+}
+
+/* ##### HEADER ##### */
+
+.header {
+	padding: 10px 0px;
+	/*border-bottom: 3px solid #FDCB76;*/
+	width: 80%;
+	max-width: 1000px;
+	margin: 0px auto 0px;
+}
+
+.header ul {
+	list-style: none;
+}
+
+.logo-container {
+	float: left;
+}
+
+.logo-container img {
+	width: 300px;
+}
+
+.navigation {
+	float: left;
+	margin-left: 50px;
+	margin-top: 42px;
+}
+
+.navigation ul li {
+	float: left;
+	margin: 0px 5px;
+}
+
+.navigation ul li a {
+	padding: 10px 24px;
+	text-decoration: none;
+	color: #444444;
+	background: #FEE0AC;
+	box-shadow: 2px 2px 0px #FDCB76;
+	font-size: 13px;
+}
+
+.navigation ul li a:hover {
+	color: #444444;
+	background: #FDCB76;
+	box-shadow: 2px 2px 0px #FDCB76;
+}
+
+.navigation ul .active a {
+	background: #FDCB76;
+	box-shadow: 2px 2px 0px #FEE0AC;
+}
+
+.subheader {
+	margin-top: 4px;
+	font-size: 11px;
+}
+
+.breadcrumb {
+	float: left;
+	color: #aaaaaa;
+}
+
+.breadcrumb span {
+	color: #333;
+}
+
+.subnavigation {
+	float: right;
+}
+
+.subnavigation ul li {
+	float: left;
+}
+
+.subnavigation ul li a {
+	text-decoration: none;
+	color: #444444;
+	padding: 4px 10px;
+}
+
+.subnavigation ul li a:hover {
+	color: #000;
+}
+
+
+/* ##### CONTENT ##### */
+
+.content {
+	width: 80%;
+	max-width: 1000px;
+	margin: 0px auto;
+}
+
+.banner {
+	width: 100%;
+	padding: 50px 0px;
+	background-image: url("../img/teaser_bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.teaser {
+	width: 50%;
+	margin: 0px auto;
+	color: #000;
+	background: rgba(255,255,255,0.8);
+	padding: 20px 40px;
+}
+
+.teaser h1, .teaser h2 {
+	font-weight: 300;
+}
+
+.teaser h1 {
+	font-size: 50px;
+}
+
+.teaser h2 {
+	font-size: 24px;
+	line-height: 34px;
+}
+
+.teaser-button {
+	text-decoration: none;
+	margin-top: 24px;
+	font-size: 15px;
+	display: inline-block;
+	padding: 10px 20px;
+	color: #444444;
+	background: #D2ECFC;
+	box-shadow: 2px 2px 0px #AFDFF9;
+}
+
+.teaser-button:hover {
+	background: #AFDFF9;
+}
+
+.grid {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
+.grid img {
+	width: 100%;
+}
+
+.grid ul {
+	list-style: none;
+}
+
+.grid ul li {
+	float: left;
+	width: 33.3%;
+	padding: 0px 20px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.grid-item-image {
+	overflow: hidden;
+}
+
+.grid-item-inner {
+	padding: 10px 0px;
+}
+
+.grid-item-inner h3 {
+	font-size: 18px;
+	padding-bottom: 6px;
+}
+
+.grid-button {
+	float: right;
+	text-decoration: none;
+	color: #444;
+	padding: 6px 14px;
+	background: #D4E190;
+	box-shadow: 2px 2px 0px #EAF0CB;
+}
+
+
+/* COURSE LIST PAGE */
+
+.courselist ul {
+	list-style: none;
+}
+
+.courselist ul li {
+	margin-bottom: 40px;
+	position: relative;
+	/*border-bottom: 1px solid #D4E190;*/
+}
+
+.list-item-image {
+	float: left;
+	height: 160px;
+	width: 220px;
+	padding-right: 15px;
+	overflow: hidden;
+}
+
+.list-item-image img {
+	height: 100%;
+}
+
+.list-item-inner h3 {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.list-item-inner p {
+	padding: 5px 0px;
+}
+
+.list-item-inner table tr td {
+	padding: 0px 10px;
+}
+
+.list-item-button {
+	background: #EAF0CB;
+	box-shadow: 2px 2px 0px #D4E190;
+	padding: 10px 20px;
+	color: #444444;
+	text-decoration: none;
+	position: absolute;
+	bottom: 1px;
+	right: 0px;
+}
+
+.list-item-button:hover {
+	background: #D4E190;
+}
+
+
+/* SINGLE COURSE */
+
+.left-col {
+	width: 70%;
+	float: left;
+}
+
+.left-col img {
+	width: 100%;
+}
+
+.left-col h1 {
+	font-size: 50px;
+	font-weight: 300;
+}
+
+.left-col h4 {
+	font-size: 18px;
+	font-weight: 300;
+	color: #888;
+}
+
+.text-headline {
+	font-weight: 700;
+	margin-top: 20px;
+}
+
+.right-col {
+	width: 28%;
+	float: left;
+	margin-left: 2%;
+	right: 0px;
+	background: #eeeeee;
+}
+
+.right-col ul {
+	list-style: none;
+	padding: 5px 10px 10px;
+}
+
+.right-col li {
+	padding-bottom: 20px;
+}
+
+.signup-button {
+	text-align: center;
+}
+
+.signup-button a {
+	text-decoration: none;
+	margin: 0px 0px 20px;
+	padding: 10px 20px;
+	display: inline-block;
+	color: #444;
+	background: #D4E190;
+	box-shadow: 2px 2px 0px #EAF0CB;
+}
+
+
